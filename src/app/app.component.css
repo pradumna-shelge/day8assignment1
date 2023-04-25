@@ -1,0 +1,10 @@
+.main{
+    background-color: rgb(12, 3, 45);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: fit-content;
+    background-image: url("https://res.cloudinary.com/drljda4ci/image/upload/v1682141213/pexels-hasan-albari-1229862_dpkfmr.jpg");
+
+}

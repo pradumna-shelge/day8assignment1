@@ -1,0 +1,314 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-around;
+  
+    background-color: rgb(235, 235, 235);
+    /* padding: 0.5% 8%; */
+    border: solid 0.5px rgb(209, 209, 209);
+  }
+  
+  .shopi {
+    text-decoration: none;
+    color: #5e5b5b;
+  
+    font-size: x-large;
+  }
+  
+  .logini {
+    text-decoration: none;
+    color: #5e5b5b;
+  
+    font-size: x-large;
+  }
+  
+  .lcon {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0.5%;
+  }
+  
+  .logoc {
+    height: 100px;
+  }
+  
+  .num {
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(107, 110, 112);
+  }
+  
+  .navbar {
+    width: 100%;
+  }
+  
+  .nav {
+    display: flex;
+    list-style: none;
+    margin: auto;
+    justify-content: center;
+    text-decoration: none;
+  }
+  
+  .nav li {
+    margin: 1%;
+    font-size: medium;
+    text-decoration: none;
+  }
+  
+  .navL {
+    text-decoration: none;
+    color: #5e5b5b;
+  }
+  
+  .custom {
+    text-decoration: none;
+    background-color: rgb(241, 145, 20);
+    padding: 5px;
+    color: aliceblue;
+  }
+  
+  .first {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(235, 235, 235);
+    padding: 5%;
+    border: solid 0.5px rgb(209, 209, 209);
+  }
+  
+  .one {
+    margin: auto;
+    height: fit-content;
+  }
+  
+  .two {
+    margin: auto;
+    height: fit-content;
+  }
+  
+  .heading {
+    font-size: 30px;
+    height: 10px;
+    color: #5e5b5b;
+  }
+  
+  .sub {
+    font-size: 20px;
+    height: 10px;
+    color: #5e5b5b;
+  }
+  
+  .txt {
+    font-size: 10px;
+    color: #5e5b5b;
+  }
+  
+  .but {
+    background-color: rgb(236, 143, 22);
+    padding: 9px;
+    font-size: medium;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 10px;
+  }
+  
+  .in {
+    padding: 2%;
+    margin: 1%;
+  
+    border-radius: 10px;
+    background-color: rgb(235, 235, 235);
+    border: solid 1px rgb(185, 184, 184);
+  }
+  
+  .send {
+    width: 100%;
+    background-color: rgb(236, 143, 22);
+    border: 1px solid rgb(236, 143, 22);
+    font-size: x-large;
+    color: aliceblue;
+  }
+  
+  .twod {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(15, 143, 218);
+    color: aliceblue;
+  }
+  
+  .two1 {
+    width: 70%;
+  }
+  
+  .twoh {
+    font-size: 30px;
+    line-height: 25px;
+    color: rgba(240, 248, 255, 0.918);
+  }
+  
+  .twot {
+    font-size: 10px;
+    color: rgba(240, 248, 255, 0.644);
+  }
+  
+  .two2 {
+    padding: 8% 1%;
+  }
+  
+  .twobu {
+    background-color: aliceblue;
+    text-decoration: none;
+    padding: 12px;
+    font-size: 20px;
+    color: rgb(15, 143, 218);
+    font-weight: bold;
+    border-radius: 15px;
+  }
+  
+  .thr {
+    display: flex;
+    justify-content: space-around;
+    padding: 1% 0%;
+    background-color: rgb(235, 235, 235);
+  }
+  
+  .thr1 {
+    margin: 1%;
+  }
+  
+  .thr2 {
+    margin: 1%;
+    color: #5e5b5b;
+  }
+  
+  .thrh {
+    font-size: 0px;
+    height: 10px;
+    color: #4b4848;
+  }
+  
+  .thrs {
+    font-size: 20px;
+    color: #494747;
+  }
+  
+  .thrd {
+    font-size: 10px;
+  }
+  
+  .thrb {
+    background-color: rgb(236, 143, 22);
+    border: 1px solid rgb(236, 143, 22);
+    font-size: medium;
+    color: rgb(245, 246, 247);
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .fourmain {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 1% 5%;
+  }
+  .card {
+    height: fit-content;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 70%;
+    margin-bottom: 15px;
+  }
+  
+  .card h1,
+  p {
+    line-height: 18px;
+    color: #504d4d;
+    font-size: large;
+  }
+  
+  .card h1 {
+    font-size: 30px;
+    color: #3f3d3d;
+  }
+  
+  .lbut {
+    margin: 35px 99px;
+    padding: 2px 10px;
+    /* background-color: aqua; */
+    /* height: max-content; */
+  }
+  
+  .dfive {
+    display: grid;
+    height: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(154px, 1fr));
+    background-color: #676666;
+    /* color: aliceblue; */
+    padding: 2%;
+  }
+  .dfive p {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+  }
+  .copyright {
+    background-color: #3f3d3d;
+    padding: 1px 1px;
+    margin: 0;
+  }
+  .copyright p {
+    color: rgba(240, 248, 255, 0.596);
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 750px) {
+    .nav {
+      display: block;
+    }
+    .num {
+      font-size: 20px;
+    }
+    .logoc {
+      height: 100%;
+    }
+    .first {
+      display: block;
+    }
+    .one,
+    .two {
+      margin: 5%;
+    }
+    .twod {
+      display: block;
+      padding: 0;
+      margin: 0;
+      padding: 15%;
+    }
+    .two2 {
+      padding: 5% 1%;
+    }
+    .twoh {
+      font-size: 17px;
+      line-height: 15px;
+  
+      color: rgba(240, 248, 255, 0.918);
+    }
+    .thr {
+      display: block;
+    }
+    .fourmain {
+      display: block;
+      margin: 1%;
+    }
+    .logo {
+      height: 100px;
+    }
+  }
+  

@@ -1,0 +1,87 @@
+
+  .main {
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+  }
+  .card {
+    height: 270px;
+    width: 350px;
+background-color: transparent;
+    margin: 5px;
+    border: 1px;
+    /* border: 1px solid wheat; */
+  
+    /* border-radius: 22px; */
+    padding: 10px;
+    display: inline-grid;
+  }
+  .row1 {
+    width: 350px;
+    height: 130px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .per {
+    width: 190px;
+    height: 150px;
+  }
+  .image {
+  
+    width: 140px;
+    height: 150px;
+  }
+  .img {
+    height: 90px;
+    width: 90px;
+    border-radius: 100px;
+    margin: 15px;
+    border: 3px solid rgb(20, 165, 141);
+  }
+  span {
+    color: rgb(20, 165, 141);
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  p {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .row2 {
+  
+    width: 350px;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .logo {
+    width: 130px;
+    height: 100px;
+  }
+  .log {
+    height: 50px;
+  
+    float: right;
+    width: 50px;
+    border-radius: 10px;
+    margin: 15px;
+    border: 3px solid rgb(20, 165, 141);
+  }
+  .collage {
+    width: 200px;
+    height: 100px;
+  }
+  .show {
+    text-align: center;
+  }
+  .sho {
+    color: rgb(106, 117, 128);
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .card:hover {
+    box-shadow: 2px 8px 18px 5px;
+  }
+  

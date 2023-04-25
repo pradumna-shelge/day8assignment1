@@ -1,0 +1,59 @@
+
+<div class=" d-sm-flex" >
+
+    <div class=" flex-nowrap sidebar ">
+        <div class="">
+            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white ">
+                <a class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-decoration-none">
+                    <span class="fs-5  d-sm-inline">ASSIGNMENTS</span>
+                </a>
+                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="css">
+                   
+                    <li>
+                        <a href="#subcss1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-speedometer2"></i> <span class="ms-1  d-sm-inline">DAY 1</span> </a>
+                        <ul class="collapse  nav flex-column ms-1" id="subcss1" data-bs-parent="#css">
+                            <li class="w-100">
+                                <a routerLink="./day1assignment1" class="nav-link px-0"> <span class=" d-sm-inline">ASSIGNMENT </span> 1 </a>
+                            </li>
+                            <li>
+                                <a routerLink="./day1assignment2" class="nav-link px-0"> <span class=" d-sm-inline">ASSIGNMENT</span> 2 </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#subcss2" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-speedometer2"></i> <span class="ms-1  d-sm-inline">DAY 2</span> </a>
+                        <ul class="collapse  nav flex-column ms-1" id="subcss2" data-bs-parent="#css">
+                            <li class="w-100">
+                                <a routerLink="./day2assignment1" class="nav-link px-0"> <span class=" d-sm-inline">ASSIGNMENT </span> 1 </a>
+                            </li>
+                            <li>
+                                <a routerLink="./day2assignment2" class="nav-link px-0"> <span class=" d-sm-inline">ASSIGNMENT</span> 2 </a>
+                            </li>
+                            <li>
+                                <a routerLink="./day2assignment3" class="nav-link px-0"> <span class=" d-sm-inline">ASSIGNMENT</span> 3 </a>
+                            </li>
+                            <li>
+                                <a routerLink="./day2assignment4" class="nav-link px-0"> <span class=" d-sm-inline">ASSIGNMENT</span> 4 </a>
+                            </li>
+                            <li>
+                                <a routerLink="./day2assignment5" class="nav-link px-0"> <span class=" d-sm-inline">ASSIGNMENT</span> 5 </a>
+                            </li>
+                            <li>
+                                <a routerLink="./day2assignment6" class="nav-link px-0"> <span class=" d-sm-inline">ASSIGNMENT</span> 6 </a>
+                            </li>
+                        </ul>
+                    </li>
+                   
+                </ul>
+                <hr>
+            </div>
+        </div>
+      </div>
+   
+<div  class="ms-5">
+
+    <router-outlet></router-outlet>
+</div>
+</div>

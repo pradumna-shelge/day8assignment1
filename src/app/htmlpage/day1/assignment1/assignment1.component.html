@@ -1,0 +1,69 @@
+<form onsubmit="" class="border p-3 mt-5">
+    <h1>Employee detail</h1>
+        <div>
+            profile photo:
+            <input type="file" name="profile" accept=".jpg">
+            <br/> 
+        <br/>
+        First Name:
+        <input type="text" name="Name " placeholder="jone sina" required/>
+        <br/> 
+        <br/>
+        last Name:
+        <input type="text" name="last" required/>
+        <br/> 
+        <br/>
+        Job Profile :
+        <select name="contry" required>
+            <option value="software developer">software developer</option>
+            <option value="full-stack developer">full-stack developer</option>
+            <option value="front-end developer">front-end developer</option>
+            <option value="back-end">back-end</option>
+            </select>
+            <br/> 
+            
+        <br/>
+        Gender: 
+        male:<input type="radio" name="sex" required > Female :<input type="radio" name="sex" required>
+
+       
+        <br/> 
+        <br/>
+        Date Of Joining : 
+        <input type="date" name="dob" min="1991-01-01" max="2004-12-31" required required/>
+        <br/> 
+        <br/>
+        Salary:
+        <input type="tel" min="10" max="10" required pattern="^(?=.*[0-9]).{10,10}$"/>
+        <br/> 
+        <br/>
+        Country :
+    <select name="contry" required>
+        <option value="india">india</option>
+        <option value="nepal">nepal</option>
+        <option value="shriLanka">shriLanka</option>
+        <option value="japan">japan</option>
+        </select>
+        <br/> 
+        <br/>
+        mobile no:
+        <input type="tel" min="10" max="10" required pattern="^(?=.*[0-9]).{10,10}$"/>
+        <br/> 
+        <br/>
+
+        Email :
+        <input type="email" name="email" multiple  />
+        <br/> 
+        <br/>
+        Password : 
+        <input type="password" name="password" pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=\S+$).{6,}$"  required/>
+        <br/> 
+        <br/> 
+        <input type="submit" name="submit"/>
+        <input type="reset">
+        
+    </div>
+    </form>
+
+
+

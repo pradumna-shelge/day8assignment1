@@ -1,0 +1,115 @@
+.rcont{
+    display: grid;
+    grid-template-areas: ' h h h h h'
+                        'l  m m m r '
+                          'l f f f f';
+    background-color: rgba(250, 235, 215, 0.301);
+  }
+  
+  .header,.footer{
+    grid-area: h;
+    background-color: rgba(95, 100, 100, 0.274);
+    font-size:50px;
+    text-align: center;
+    padding: 25px;
+  
+  }
+  .footer{
+    grid-area: f;
+  }
+  .rleft{
+    grid-area: l;
+    padding: 22px;
+    background-color: rgba(221, 207, 17, 0.326);
+   
+  }
+  .rleft li{
+    list-style: none;
+    font-size: x-large;
+    padding: 5px 5px;
+    margin: 74% 12px;
+   
+  }
+  .rleft a{
+    font-size: larger;
+    text-decoration: none;
+  }
+  .rmain{
+    grid-area: m;
+    padding: 15px;
+    text-align: center;
+  
+  }
+  .rmain h1{
+  font-size: xx-large;
+  margin: 12px;
+  }
+  .rright{
+    grid-area: r;
+    background-color: aquamarine;
+    padding: 15px;
+  }
+  
+  
+  
+  @media only screen and (max-width: 900px){
+    .rcont{
+        display: grid;
+        grid-template-areas: 'h h h h h '' l l l l l '
+                            'm m m m m '
+                            'r r r r r '
+                            'f f f f f';
+        background-color: rgb(224, 153, 59);
+    }
+    .header,.footer{
+        grid-area: h;
+        background-color: rgb(18, 233, 233);
+        font-size:15px;
+        text-align: center;
+        padding: 25px;
+    
+    }
+    .footer{
+        grid-area: f;
+        overflow: scroll;
+    }
+    .rleft{
+        grid-area: l;
+        padding: 22px;
+        background-color: rgba(61, 58, 55, 0.747);
+       
+    }
+    .rleft li{
+        list-style: none;
+    font-size: x-large;
+    padding: -5px 5px;
+    margin: 19px;
+       
+       
+    }
+    .rleft a{
+        font-size: larger;
+        text-decoration: none;
+    }
+    .rmain{
+        grid-area: m;
+        
+        text-align: center;
+        background-color: rgba(127, 255, 212, 0.267);
+    padding: 1px;
+    overflow: scroll;
+    
+    }
+    .rmain h1,p{
+    font-size: 12px;
+    margin: 12px;
+    
+    }
+    .rright{
+        grid-area: r;
+        background-color: rgba(255, 210, 127, 0.426);
+        padding: 15px;
+        overflow: scroll;
+    }
+    
+  }

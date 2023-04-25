@@ -1,0 +1,72 @@
+
+
+*,
+body {
+   margin: 0;
+   padding: 0;
+}
+.container {
+  position: static;
+   justify-content: baseline;
+  
+}
+.menuBar {
+position: sticky;
+top: 1%;
+color: rgb(246, 228, 228);
+background-color: rgb(3, 89, 97);
+padding: 5%;
+}
+.menuBar a{
+   color: rgb(170, 11, 11);
+   font-size: 20px;
+   line-height: 30px;
+   font-weight: bold;
+   
+
+}
+.main>div{
+background-color: rgb(212, 210, 208);
+line-height: 40px;
+
+margin: 15px;
+padding: 19px;
+height: 100%;
+width: 500px;
+}
+
+img{
+   height: 100px;
+}
+h1,h2{
+   font-size: 30px;
+   background-color: brown;
+   color: aliceblue;
+}
+p{
+   font-size: 15px;
+   padding: 5px;
+}
+
+
+li{
+   margin: 12px;
+   list-style: none;
+}
+a:active{
+color: rgb(219, 238, 12);
+}
+a:visited{
+color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width:700px) {
+.container {
+  
+    justify-content: baseline;
+}
+
+
+}
+
+

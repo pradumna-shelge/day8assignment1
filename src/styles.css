@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+
+h1, h2,h3,p,li,a,span,ul{
+    color: aliceblue;
+
+}
+iframe{
+    width: 300px;
+    height: 700vw;
+    color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.836);
+}
+.right12{
+    background-color: rgba(243, 239, 239, 0.158);
+    
+}
+.sidebar {
+  
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;
+    background-color: rgba(255, 255, 255, 0.133);
+    width: fit-content;
+    height: 100vw;
+  }
+ 
+  @keyframes example {
+    0%   { left:-200px; top:0px;}
+  25%  {left:0px; top:0px;}
+
+  }
+
+  @media only screen and (max-width: 600px) {
+    .sidebar {
+      height: fit-content;
+      width: 100%;
+    }
+  }
+  li:hover{
+    scale: 110%;
+    width: 100%;
+  }
+  .btn{
+color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.225);
+  }
